@@ -28,3 +28,16 @@ def line(katz_deli)
 
 
 end
+
+$customer_count = 0
+def ticket_wheel
+   $customer_count += 1  
+   puts "Your ticket number is #{$customer_count}" 
+ end 
+ 
+ ticket_wheel
+ ticket_wheel
+ ticket_wheel 
+ 
+ 
+ 
